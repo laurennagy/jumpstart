@@ -2,6 +2,7 @@
 
 html {
   font-size: 14px;
+  background-color: #ffffff;
 }
 
 body {
@@ -46,30 +47,25 @@ h3 {
 .jumbotron {
   padding: 11.85rem 0;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .jumbotron-bike {
   background-image: url(../../resources/images/jumbotron-bike.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-beer {
   background-image: url(../../resources/images/jumbotron-beer.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-flowers {
   background-image: url(../../resources/images/jumbotron-flowers.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-duffel {
   background-image: url(../../resources/images/jumbotron-duffel.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron h1 {
@@ -114,7 +110,6 @@ h3 {
 .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
-
 
 /* Featured project */
 
