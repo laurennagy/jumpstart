@@ -50,6 +50,10 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-shadow: -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              1px 1px 0 #000;
 }
 
 .jumbotron-bike {
@@ -73,10 +77,6 @@ h3 {
   font-size: 7.1rem;
   font-weight: normal;
   color: white;
-  text-shadow: -1px -1px 0 #000,
-              1px -1px 0 #000,
-              -1px 1px 0 #000,
-              1px 1px 0 #000;
 }
 
 .jumbotron {
@@ -87,6 +87,7 @@ h3 {
   max-width: 51.3rem;
   color: #fff;
   margin: 0 auto;
+  margin-bottom: 0;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -95,6 +96,13 @@ h3 {
     font-size: 5.7rem;
   }
 }
+
+@media (min-width: @screen-xs-min) and (max-width: @screen-xs-max) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+}
+
 
 .btn-primary {
   padding: 1.3rem;
